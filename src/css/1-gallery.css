@@ -1,0 +1,37 @@
+@import url('./reset.css');
+
+.body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    height: 696px;
+    padding: 24px 156px 24px 156px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.gallery-item {
+    width: calc((100% - 24px) / 3);
+}
+
+.button-back {
+    border-radius: 8px;
+    width: 125px;
+    height: 75px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    bottom: 20px;
+    text-decoration: none;
+    justify-content: center;
+}
