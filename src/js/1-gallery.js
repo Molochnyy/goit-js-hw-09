@@ -89,4 +89,3 @@ const gallery = new SimpleLightbox('.gallery a', {
 });
 
 
-console.log();
