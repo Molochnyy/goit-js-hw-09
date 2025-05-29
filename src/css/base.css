@@ -19,7 +19,7 @@
 body {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
+  /* min-width: 100vw;gi */
   min-height: 100vh;
   margin: 0;
 }
@@ -27,6 +27,7 @@ body {
 main {
   flex-grow: 1;
 }
+
 main:has(.back-link) {
   text-align: center;
 }
